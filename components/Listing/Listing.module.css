@@ -1,0 +1,112 @@
+.container{
+    margin-bottom: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.featuredHeading{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:#e3e0f3;
+    border-radius: 0px 0px 7px 7px;
+    width: 310px;
+    padding: 5px;
+}
+
+/* .img{
+    border-bottom: 10px;
+} */
+
+.cardDet{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
+.ico{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.eachIco{
+    display: flex;
+}
+
+.cardDet_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridFeatured{
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    
+}
+
+.buyBtn{
+    background-color: #7fd1ae;
+    color: white;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 999;
+    height: 1.5rem;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+.buyBtn2{
+    background-color: #7fd1ae;
+    color: white;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 999;
+    height: 1.5rem;
+    margin-left: 3.8rem;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+/* .buyBtn:last-child{
+    margin-left: 3rem;
+} */
+
+.view{
+    background-color: #7fd1ae;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    bottom: 2rem;
+    position: relative;
+}

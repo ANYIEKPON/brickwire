@@ -1,0 +1,197 @@
+.container{
+    padding: 4rem;
+}
+
+.wrapper{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    justify-content: center;
+    
+   
+}
+.inquiry{
+    top: -10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.inquiry > span{
+    font-size: 35px;
+}
+
+.inquiry_2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.selectType > select{
+    border: none;
+    width: 450px;
+    height: 40px;
+    border: 1px solid rgb(247, 110, 110);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.info_1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info_2{
+    display: flex;
+    gap: 2rem;
+}
+
+.select > select{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(247, 110, 110);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.info_2 > input{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(247, 110, 110);
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 1rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input > input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid rgb(247, 110, 110);
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 1rem;
+}
+
+.maxPrice{
+    display: flex;
+    gap: 2rem;
+}
+
+.maxPrice > input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(247, 110, 110);
+    padding: 1rem;
+}
+
+.submit{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(247, 110, 110);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choose{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.choose > span{
+    font-size: 30px;
+}
+
+.category{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.chooseCat{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.chooseCat > span{
+    font-size: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 60px;
+    border: 1px solid rgb(247, 110, 110); 
+    border-radius: 5px;
+}
+
+
+@media (max-width : 449px) and (min-width : 0px) {
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3rem;
+        justify-content: center;
+        position: relative;
+       
+    }
+
+    .inquiry{
+        top: -3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        position: relative;
+        justify-content: center;
+        min-width: 60%;
+    }
+
+    .inquiry > span{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .inquiry_2{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        min-width: 100%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .selectType > select{
+        border: none;
+       min-width: 100%;
+        height: 40px;
+        border: 1px solid rgb(247, 110, 110);
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: white;
+        position: relative;
+    }
+}

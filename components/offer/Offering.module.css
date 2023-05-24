@@ -1,0 +1,21 @@
+.container{
+    margin-bottom: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.offer_grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+}
+
+.offer_text > div{
+    line-break: auto;
+    word-wrap: break-word;
+}

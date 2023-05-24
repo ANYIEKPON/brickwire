@@ -1,0 +1,71 @@
+.container{
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.gridFeatured{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    background-color:  #f6f5f8;
+    width: 750px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.buyBtn{
+    background-color: rgb(247, 110, 110);
+    color: white;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 999;
+    height: 1.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0rem;
+    font-size: 10px;
+    top: 1rem;
+}
+
+.buyBtn2{
+    background-color: rgb(247, 110, 110);
+    color: white;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 999;
+    height: 1.5rem;
+    margin-left: 3.8rem;
+    margin-top: 1rem;
+    font-size: 10px;
+    top: 0rem;
+}
+
+.cardDet{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+}   

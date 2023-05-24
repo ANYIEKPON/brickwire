@@ -1,0 +1,214 @@
+.container{
+    background-color: rgb(4, 4, 73);
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+    padding: 0rem 2rem 4rem 2rem;
+}
+
+.topFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    position: relative;
+    display: flex;
+    gap: 0.1rem;
+    position: relative;
+    right: -20rem;
+}
+
+.icons > div{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    /* background-color: rgb(5, 5, 102); */
+    /* border: solid 1px #7fd1ae; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(247, 110, 110);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo > span{
+    color: #fcfcfd;
+    font-size: 30px;
+    left: -5rem;
+    position: relative;
+}
+
+.footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    color: white;
+    left: 1rem;
+    right: 1rem;
+    top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.footer span{
+    position: relative;
+    font-size: 20px;
+    bottom: 0rem;
+}
+
+.botomBod{
+    position: relative;
+    width: 80px;
+    height: 5px;
+    background-color: rgb(247, 110, 110);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.contact_info span{
+    position: relative;
+    font-size: 20px;
+}
+
+.contact_Infos span{
+            color:  #d5dad8;
+}
+
+.about{
+    position: relative;
+    left: 2rem;
+}
+
+.about p{
+    color: #d5dad8;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.links div{
+    display: flex;
+    color: #d5dad8;
+}
+
+.right{
+    position: relative;
+    color: white;
+    bottom: -1rem;
+    left: 2rem;
+
+}
+
+.right span{
+    color: rgb(247, 110, 110);
+    font-size: 13px;
+}
+
+/* .links div > span{
+    color: #d5dad8;
+} */
+
+.company_links{
+    position: relative;
+    left: 0.5rem;
+}
+
+
+.footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    color: white;
+    left: 1rem;
+    right: 1rem;
+    top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+@media (max-width : 449px) and (min-width : 0px) {
+    .footer{
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2.5rem;
+        color: white;
+        left: 0rem;
+        right: 1rem;
+        top: 2rem;
+        margin-bottom: 4rem;
+    text-align: center;
+    }
+
+    .about{
+        position: relative;
+        left: 0rem;
+    }
+
+    .about span{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .company_links{
+        position: relative;
+        /* left: 0.5rem; */
+        bottom: 1rem;
+        top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .company_links span{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .contact_info{
+        position: relative;
+        top: 2rem;
+        bottom: 2rem;
+    }
+
+    .contact_info > span{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .topFooter{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 2rem;
+        align-items: center;
+    }
+
+    .icons{
+        position: relative;
+        display: flex;
+        gap: 0.1rem;
+        position: relative;
+        right: 0rem;
+    }
+
+    .right{
+        position: relative;
+        color: white;
+        bottom: -2.5rem;
+        left: 0rem;
+    
+    }
+}

@@ -1,0 +1,691 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(5, 5, 102);
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.menuList{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.menuList li{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.navLogo{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 600px;
+    gap: 6rem;
+    top: 2.5rem;
+
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -0.5rem;
+}
+
+.logos{
+   display: none;
+}
+
+.logotext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 9px;
+}
+
+.brick span{
+    color: rgb(230, 35, 35);
+}
+.brick{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 33px;
+    color: rgb(5, 5, 102);
+}
+
+.cons{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0.4rem;
+}
+
+.listing{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: 3px solid rgb(247, 110, 110);
+    gap: 0.5rem;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.listing span{
+    font-size: 10px;
+}
+
+.rightMenu{
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 40px;
+    gap: 2rem;
+    top: 1.6rem;
+}
+
+
+.repeat, .heart, .profile{
+    border: 3px solid rgb(247, 110, 110);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.breadCrumbs{
+    display: none;
+}
+
+.menuDiv{
+    position: relative;
+    top: 0rem;
+}
+
+.menuList li{
+    display: flex;
+    flex-direction: column;
+}
+
+.menuList li > div{
+    width: 40px;
+    height: 5px;
+    background: rgb(247, 110, 110);
+    border-radius: 20px;
+}
+
+
+@media (max-width : 449px) and (min-width : 0px) {
+    .menuDiv{
+        display: none;
+       
+    }
+    .logo{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: -0.5rem;
+    } 
+
+    .logos{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: -0.5rem;
+    } 
+
+    .showMenu{
+        background-color: rgb(95, 79, 79);
+        color: white;
+        position: fixed;
+        z-index: 99;
+        min-width: 300px;
+        min-height: 100%;
+        right: -1.7rem;
+        top: -2.5rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .rightMenuNo{
+        display: none;
+    }
+
+    .showM{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        height: 100vh;
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .breadCrumbs{
+        display: flex;
+    }
+    .close{
+        display: flex;
+        position: fixed;
+        left: 1rem;
+        z-index: 199;
+        cursor: pointer;
+        font-size: 25px;
+        top: 3rem;
+    }
+    .container{
+        position: relative;
+        top: 0rem;
+        background-size: cover;
+        color: white;
+        justify-content: center;
+        gap: 1rem; 
+        display: flex;
+    }
+    .rightMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        align-self: center;
+        position: absolute;
+        top: 5.5rem;
+    }
+
+    .repeat, .heart, .profile{
+        border: 3px solid rgb(247, 110, 110);
+        border-radius: 50%;
+        min-width: 10px;
+        min-height: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+    }
+    .navLogo{
+        display: flex;
+        min-width: 120px;
+        left: 1rem;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .breadCrumbs{
+        display: flex;
+        position: relative;
+        top: 1.7rem;
+        font-size: 30px;
+        cursor: pointer;
+        justify-content: center;
+        right: 1rem;
+    }
+
+    .listing{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        border: 3px solid rgb(247, 110, 110);
+        gap: 0.3rem;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        min-width: 100px;
+        height: 30px;
+    }
+
+    .listing span{
+        font-size: 7px;
+    }
+
+    
+}
+
+@media (max-width : 599px) and (min-width : 450px) {
+    .menuDiv{
+        display: none;
+    }
+
+    .breadCrumbs{
+        display: flex;
+    }
+    .container{
+        width: 100%;
+        position: relative;
+        top: 0rem;
+        background-size: cover;
+        color: white;
+        justify-content: center;
+        gap: 1rem; 
+        display: flex;
+    }
+
+    .logos{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: -0.5rem;
+    } 
+
+    .rightMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        align-self: center;
+        position: absolute;
+        top: 5.5rem;
+    }
+
+    .listing{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        border: 3px solid rgb(247, 110, 110);
+        gap: 0.3rem;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        min-width: 100px;
+        height: 30px;
+    }
+    .navLogo{
+        display: flex;
+        min-width: 300px;
+        position: relative;
+        justify-content: space-between;
+        left: 1rem;
+    }
+
+    .breadCrumbs{
+        display: flex;
+        position: relative;
+        top: 1.7rem;
+        font-size: 30px;
+        cursor: pointer;
+        justify-content: center;
+        right: 1rem;
+    }
+
+    .showMenu{
+        background-color: rgb(95, 79, 79);
+        color: white;
+        position: fixed;
+        z-index: 99;
+        min-width: 300px;
+        min-height: 100%;
+        right: -1.7rem;
+        top: -2.5rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .rightMenuNo{
+        display: none;
+    }
+
+    .showM{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        height: 100vh;
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .breadCrumbs{
+        display: flex;
+    }
+    .close{
+        display: flex;
+        position: fixed;
+        left: 1rem;
+        z-index: 199;
+        cursor: pointer;
+        font-size: 25px;
+        top: 3rem;
+    }
+
+}
+
+@media (max-width : 750px) and (min-width : 600px) {
+    .menuDiv{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+        position: relative;
+        top: 0rem;
+        background-size: cover;
+        color: white;
+        justify-content: center;
+        gap: 1rem; 
+        display: flex;
+    }
+
+    .logos{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: -0.5rem;
+    } 
+    .rightMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        right: 1.5rem;
+    }
+    .navLogo{
+        display: flex;
+        min-width: 260px;
+        left: 1rem;
+        position: relative;
+        justify-content: space-between;
+
+    }
+
+    .breadCrumbs{
+        display: flex;
+        position: relative;
+        top: 1.7rem;
+        font-size: 30px;
+        justify-content: center;
+        right: 1rem;
+        cursor: pointer;
+    }
+
+    .listing{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        border: 3px solid rgb(247, 110, 110);
+        gap: 0.3rem;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        min-width: 120px;
+        height: 40px;
+    }
+
+    
+    .showMenu{
+        background-color: rgb(95, 79, 79);
+        color: white;
+        position: fixed;
+        z-index: 99;
+        min-width: 300px;
+        min-height: 100%;
+        right: -1.7rem;
+        top: -2.5rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .rightMenuNo{
+        display: none;
+    }
+
+    .showM{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        height: 100vh;
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .breadCrumbs{
+        display: flex;
+    }
+    .close{
+        display: flex;
+        position: fixed;
+        left: 1rem;
+        z-index: 199;
+        cursor: pointer;
+        font-size: 25px;
+        top: 3rem;
+    }
+}
+
+@media (max-width : 1040px) and (min-width : 750px) {
+    .menuDiv{
+        display: none;
+    }
+
+    .breadCrumbs{
+        display: flex;
+    }
+    .container{
+        width: 100%;
+        position: relative;
+        top: 0rem;
+        background-size: cover;
+        color: white;
+        justify-content: center;
+        gap: 0.5rem; 
+        display: flex;
+    }
+    .rightMenu{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        position: relative;
+        top: 1.5rem;
+        right: 3rem;
+    }
+
+    .logos{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: -0.5rem;
+    } 
+
+    .navLogo{
+        position: relative;
+        display: flex;
+        min-width: 200px;
+        top: 2rem;
+        left: 1.5rem;
+    }
+
+    .breadCrumbs{
+        display: flex;
+        position: relative;
+        top: 1.7rem;
+        font-size: 30px;
+        justify-content: center;
+        right: 2rem;
+    }
+
+    .repeat, .heart, .profile{
+        border: 3px solid rgb(247, 110, 110);
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .listing{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        border: 3px solid rgb(247, 110, 110);
+        gap: 0.3rem;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        min-width: 120px;
+        height: 35px;
+    }
+    .showMenu{
+        background-color: rgb(95, 79, 79);
+        color: white;
+        position: fixed;
+        z-index: 99;
+        min-width: 300px;
+        min-height: 100%;
+        right: -1.7rem;
+        top: -2.5rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .rightMenuNo{
+        display: none;
+    }
+
+    .showM{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        height: 100vh;
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .breadCrumbs{
+        display: flex;
+        position: relative;
+        top: 1.5rem;
+        font-size: 30px;
+        justify-content: center;
+        right: 1.3rem;
+        cursor: pointer;
+    }
+
+    .close{
+        display: flex;
+        position: fixed;
+        left: 1rem;
+        z-index: 199;
+        cursor: pointer;
+        font-size: 25px;
+        top: 3rem;
+    }
+
+    .rightMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 1rem;
+        right: 3.5rem;
+    }
+    .navLogo{
+        display: flex;
+        min-width: 260px;
+        left: 1rem;
+        position: relative;
+        justify-content: space-between;
+    }
+}
+
+/* @media  (min-width : 1040px) {
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 0rem;
+        background-size: cover;
+    }
+    
+    .menuList{
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+    }
+    
+    .menuList li{
+        cursor: pointer;
+    }
+    
+    .navLogo{
+        display: flex;
+        width: 750px;
+        gap: 10rem;
+        top: 2rem;
+        position: relative;
+        left: 2.5rem;
+    }
+    
+    .listing{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        border: 3px solid #7fd1ae;
+        gap: 0.5rem;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 130px;
+    }
+    
+    .listing span{
+        font-size: 10px;
+    }
+    
+    .rightMenu{
+        position: relative;
+        display: flex;
+        height: 40px;
+        gap: 1rem;
+        top: 1.6rem;
+        right: 3rem;
+    }
+    
+    .profile{
+        font-size: 35px;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        color: #7fd1ae;
+    }
+    
+    .repeat, .heart{
+        border: 3px solid #7fd1ae;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .breadCrumbs{
+        display: none;
+    }
+    
+    .menuDiv{
+        position: relative;
+        top: 0rem;
+    }
+} */

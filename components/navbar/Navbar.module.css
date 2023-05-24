@@ -151,9 +151,9 @@
         color: white;
         position: fixed;
         z-index: 99;
-        min-width: 300px;
+        min-width: 80%;
         min-height: 100%;
-        right: -1.7rem;
+        right: 2rem;
         top: -2.5rem;
         display: flex;
         flex-direction: column;
@@ -190,7 +190,7 @@
         position: relative;
         top: 0rem;
         background-size: cover;
-        color: white;
+        color: rgb(5, 5, 102);
         justify-content: center;
         gap: 1rem; 
         display: flex;
@@ -266,7 +266,7 @@
         position: relative;
         top: 0rem;
         background-size: cover;
-        color: white;
+        color: rgb(5, 5, 102);
         justify-content: center;
         gap: 1rem; 
         display: flex;
@@ -372,7 +372,7 @@
         position: relative;
         top: 0rem;
         background-size: cover;
-        color: white;
+        color: rgb(5, 5, 102);
         justify-content: center;
         gap: 1rem; 
         display: flex;
@@ -479,7 +479,7 @@
         position: relative;
         top: 0rem;
         background-size: cover;
-        color: white;
+        color: rgb(5, 5, 102);
         justify-content: center;
         gap: 0.5rem; 
         display: flex;

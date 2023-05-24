@@ -1,6 +1,7 @@
 .container{
     margin-bottom: 1rem;
     padding: 2rem;
+    z-index: 90;
 }
 
 .wrapper{

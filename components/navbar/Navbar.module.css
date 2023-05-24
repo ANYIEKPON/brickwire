@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: rgb(5, 5, 102);
+    color: white;
     gap: 1rem;
     width: 100%;
-    margin-top: 0rem;
+    margin-top: -2rem;
 }
 
 .menuList{
@@ -22,12 +22,12 @@
 
 .navLogo{
     position: relative;
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     width: 600px;
     gap: 6rem;
     top: 2.5rem;
-
+    left: -3.5rem;
 }
 
 .logo{

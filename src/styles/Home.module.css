@@ -4,7 +4,7 @@
 }
 
 .container{
-    background-image: url(../../public/images/image1.jpg);
+    background-image: url(../../public/images/SEAGATE_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 90vh;
@@ -54,7 +54,7 @@
 
 @media (max-width : 449px) and (min-width : 0px) {
     .container{
-        background-image: url(../../public/images/image1.jpg);
+        background-image: url(../../public/images/SEAGATE_1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         height: 45vh;
@@ -68,7 +68,7 @@
 
 @media (max-width : 599px) and (min-width : 450px) {
     .container{
-        background-image: url(../../public/images/image1.jpg);
+        background-image: url(../../public/images/SEAGATE_1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         height: 50vh;
@@ -79,7 +79,7 @@
 
     @media (max-width : 750px) and (min-width : 600px) {
         .container{
-            background-image: url(../../public/images/image1.jpg);
+            background-image: url(../../public/images/SEAGATE_1.jpg);
             background-repeat: no-repeat;
             background-position: center;
             height: 60vh;

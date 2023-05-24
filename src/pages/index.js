@@ -9,6 +9,7 @@ import Listing from "../../components/Listing/Listing";
 import Enquiry from "../../components/enquiry/Enquiry";
 import Head from 'next/head';
 import Offering from "../../components/offer/Offering";
+import Navbar from "../../components/navbar/Navbar";
 
 
 

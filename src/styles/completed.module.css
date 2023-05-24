@@ -10,6 +10,10 @@
     gap: 2rem;
 }
 
+.compleNav{
+    color: rgb(5, 5, 102);
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;

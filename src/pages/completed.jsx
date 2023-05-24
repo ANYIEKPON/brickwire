@@ -8,7 +8,7 @@ import { GiBathtub } from "react-icons/gi";
 
 
 
-function Ongoing() {
+function Completed() {
 
   return (
     <div className={styles.container}>
@@ -21,7 +21,7 @@ function Ongoing() {
                 <div className={styles.card}>
                     <div className={styles.card_img}>
                         <Image src="/images/brick1.jpeg" objectFit='cover'   width="400" height="250" className={styles.img} />
-                        <div className={styles.buyBtn}><p>Buy</p></div>
+                        {/* <div className={styles.buyBtn}><p>Buy</p></div> */}
                     </div>
                     <div className={styles.cardDet}>
                         <h3>2 Units of Semi-detached 5 bedroom duplex</h3>
@@ -33,7 +33,7 @@ function Ongoing() {
                 <div className={styles.card}>
                     <div className={styles.card_img}>
                             <Image src="/images/brick2.jpeg" objectFit='cover'   width="400" height="250" className={styles.img} />
-                            <div className={styles.buyBtn}><p>Buy</p></div>
+                            {/* <div className={styles.buyBtn}><p>Buy</p></div> */}
                     </div>
                     <div className={styles.cardDet}>
                         <h3> 3 Units of 5 bedroom Terraces</h3>
@@ -45,12 +45,12 @@ function Ongoing() {
                 <div className={styles.card}>
                     <div className={styles.card_img}>
                             <Image src="/images/brick3.jpeg"  width="400" height="250" className={styles.img} />
-                            <div className={styles.buyBtn}>
+                            {/* <div className={styles.buyBtn}>
                                 <p>Buy</p>
                             </div>
                             <div className={styles.buyBtn2}>
                                 <p>Sell</p>
-                            </div>
+                            </div> */}
                     </div>
                     <div className={styles.cardDet}>
                         <h3> 10 Units of 3-Bedroom, 2-bedroom and 1-bedroom Flats</h3>
@@ -65,4 +65,4 @@ function Ongoing() {
   )
 }
 
-export default Ongoing;
+export default Completed;

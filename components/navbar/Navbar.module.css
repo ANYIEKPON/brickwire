@@ -126,10 +126,20 @@
     border-radius: 20px;
 }
 
+.display{
+    display: none;
+}
+
+/* .showMenu{
+    display: none;
+} */
 
 @media (max-width : 449px) and (min-width : 0px) {
     .menuDiv{
-        display: none;
+        visibility: hidden;
+        right: -2rem;
+        transition: 0.10 ease-out;
+        position: fixed;
        
     }
     .logo{
@@ -147,17 +157,21 @@
     } 
 
     .showMenu{
-        background-color: rgb(91, 91, 128);
-        color: white;
+        background-color: rgb(63, 45, 45);
+        color: whitesmoke;
         position: fixed;
-        z-index: 99;
-        min-width: 80%;
-        min-height: 100%;
-        right: 2rem;
+        z-index: 299;
+        width: 80%;
+        height: 100%;
+        max-width: 20rem;
+        right: 0rem;
         top: -2.5rem;
         display: flex;
         flex-direction: column;
         padding-top: 6rem;
+        visibility: visible;
+        transition: 0.15 ease-in;
+        box-shadow: -1px 0 3px hsl(0, 0%, 0%, 0.2);
     }
 
     .rightMenuNo{
@@ -185,9 +199,10 @@
         cursor: pointer;
         font-size: 25px;
         top: 3rem;
+        color: inherit;
     }
     .container{
-        position: relative;
+        position: sticky;
         top: 0rem;
         background-size: cover;
         color: white;
@@ -252,7 +267,16 @@
         font-size: 7px;
     }
 
-    
+    .display{
+        display: flex;
+        position: relative;
+        bottom: 10rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        /* left: -3rem; */
+        color: whitesmoke;
+    }
 }
 
 @media (max-width : 599px) and (min-width : 450px) {

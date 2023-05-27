@@ -18,7 +18,7 @@ const openNavBtn = () => {
 }
 
 const closeNavBtn = () => {
-    setCloseNav(current => !current);
+    setOpenNav(false);
 }
 
 
@@ -44,12 +44,21 @@ const closeNavBtn = () => {
                       </div>
                   </div>
                       <ul className={ openNav ? styles.showM : styles.menuList}>
-                        <Link href="/" style={{color:"inherit", textDecoration: "none"}}><li onClick={openNavBtn}>Home<div></div></li></Link>
-                        <Link href="/listing" style={{color:"inherit", textDecoration: "none"}}><li onClick={openNavBtn}>About Us</li></Link>
-                        <Link href="/completed" style={{color:"inherit", textDecoration: "none"}}><li onClick={openNavBtn}>Completed</li></Link>
-                        <Link href="/ongoing" style={{color:"inherit", textDecoration: "none"}}><li onClick={openNavBtn}>Ongoing</li></Link>
+                        <Link onClick={closeNavBtn} href="/" style={{color:"inherit", textDecoration: "none"}}><li >Home<div></div></li></Link>
+                        <Link onClick={closeNavBtn} href="/listing" style={{color:"inherit", textDecoration: "none"}}><li >About Us</li></Link>
+                        <Link onClick={closeNavBtn} href="/completed" style={{color:"inherit", textDecoration: "none"}}><li >Completed</li></Link>
+                        <Link onClick={closeNavBtn} href="/ongoing" style={{color:"inherit", textDecoration: "none"}}><li >Ongoing</li></Link>
                       </ul>
-                  </div>
+                      <div className={styles.display}>
+                          <div className={styles.listing}>
+                            <MdOutlineAddHome />
+                            <span>ADD  LISTING</span>
+                          </div>
+                          <div className={styles.repeat}><BsRepeat /></div>
+                          <div className={styles.heart}><BsHeart /></div>
+                          <div className={styles.profile}><RiContactsLine /></div>
+                      </div>
+                </div>
             </div>
             <div className={openNav ? styles.rightMenuNo : styles.rightMenu}>
                 <div className={styles.listing}>

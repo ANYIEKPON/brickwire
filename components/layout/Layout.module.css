@@ -6,7 +6,7 @@
 
 .layout{
     display: flex;
-    background-color: rgb(95, 95, 187);
+    background-color: #5f5fbb;
     height: 100px;
     position: sticky;
     top: -1rem;

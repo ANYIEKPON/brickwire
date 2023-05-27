@@ -60,9 +60,9 @@ function Featured() {
                 <div className={styles.card}>
                     <div className={styles.card_img}>
                             <Image src="/images/SEAGATE_1.jpg"  width="400" height="250" className={styles.img} />
-                            <div className={styles.buyBtn}>
+                            {/* <div className={styles.buyBtn}>
                                 <p>Buy</p>
-                            </div>
+                            </div> */}
                             {/* <div className={styles.buyBtn2}>
                                 <p>Sell</p>
                             </div> */}
@@ -75,6 +75,7 @@ function Featured() {
                         </div>
                     </div>
                 </div>
+                <p>Flexible payment options available , contact us.</p>
             </div>
        </div>
     </div>

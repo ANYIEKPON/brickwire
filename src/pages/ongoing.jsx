@@ -75,7 +75,7 @@ function Featured() {
                         </div>
                     </div>
                 </div>
-                <p>Flexible payment options available , contact us.</p>
+                <p>Flexible payment options available , contact us: &nbsp; <span>+234 817 946 4330</span></p>
             </div>
        </div>
     </div>

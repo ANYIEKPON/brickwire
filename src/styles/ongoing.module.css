@@ -76,3 +76,10 @@
     color: rgb(247, 110, 110);
     font-size: 20px;
 }
+
+.gridFeatured p{
+    font-size: 20px;
+    color:  rgb(247, 110, 110);
+}.gridFeatured p span{
+    color: #5f5fbb;
+}

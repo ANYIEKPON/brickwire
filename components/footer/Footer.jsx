@@ -6,6 +6,7 @@ import { SiInstagram } from 'react-icons/si';
 import { RxTwitterLogo } from 'react-icons/rx';
 import { FaPinterestP } from 'react-icons/fa';
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
+import Link from 'next/link';
 
 
 
@@ -21,7 +22,7 @@ function Footer() {
                      Whether you are building a new facility <br /> from scratch or 
                      re-modelling, Brickwire can help <br /> you every step of the way, 
                      and it will be our pleasure <br /> to assist you in planning every 
-                     phase of your <br /> next project. </p>
+                     phase of your <br /> next project. <div><Link href="/about-us" style={{color:"inherit", textDecoration: "none"}}>Read More</Link></div></p>
                   
                 </div>
                 <div className={styles.company_links}>

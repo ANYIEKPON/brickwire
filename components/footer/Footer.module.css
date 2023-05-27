@@ -91,6 +91,37 @@
     color: #d5dad8;
 }
 
+.about span{
+    position: relative;
+    bottom: 1rem;
+}
+
+.contact_info>span{
+    position: relative;
+    bottom: 1rem;
+}
+
+.company_links span{
+    position: relative;
+    bottom: 1rem;
+}
+
+.about div{
+    background-color: rgb(247, 110, 110);
+    color: white;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* text-align: center; */
+    position: relative;
+    top: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+
+}
+
 .links{
     display: grid;
     grid-template-columns: auto auto;

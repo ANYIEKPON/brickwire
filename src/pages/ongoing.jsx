@@ -62,8 +62,8 @@ function Featured() {
                             <Image src="/images/SEAGATE_1.jpg"  width="400" height="250" className={styles.img} />
                             {/* <div className={styles.buyBtn}>
                                 <p>Buy</p>
-                            </div> */}
-                            {/* <div className={styles.buyBtn2}>
+                            </div>
+                            <div className={styles.buyBtn2}>
                                 <p>Sell</p>
                             </div> */}
                     </div>
@@ -75,7 +75,7 @@ function Featured() {
                         </div>
                     </div>
                 </div>
-                <p>Flexible payment options available , contact us: &nbsp; <span>+234 817 946 4330</span></p>
+                <div className={styles.contactUs}><p>Flexible payment options available , contact us: &nbsp; <span>+234 817 946 4330</span></p></div>
             </div>
        </div>
     </div>

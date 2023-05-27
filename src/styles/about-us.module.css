@@ -1,0 +1,76 @@
+.container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.wrapper{
+    justify-self: center;
+    align-self: center;
+    margin:0rem 2rem 2rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.brick{
+    position: relative;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+}
+
+.brick p{
+    position: relative;
+}
+
+.brick span{
+    color: rgb(247, 110, 110);
+    bottom: 1rem;
+    position: relative;
+}
+.immage{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img{
+    position: relative;
+    height: 50px;
+    width: 100px;
+}
+
+.manage, .model, .construct{
+    display: flex;
+    position: relative;
+    max-width: 90%;
+    justify-content: space-evenly;
+    top: 6rem;
+    z-index: -88;
+    margin-bottom: 3rem;
+    left: 6rem;
+}
+
+.brickwire{
+    position: relative;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 20px;
+    z-index: -88;
+    left: 9rem;
+    top: 1.5rem;
+}
+/* .brickwire span{
+    position: relative;
+    left: 1rem;
+} */

@@ -45,7 +45,7 @@ const closeNavBtn = () => {
                   </div>
                       <ul className={ openNav ? styles.showM : styles.menuList}>
                         <Link onClick={closeNavBtn} href="/" style={{color:"inherit", textDecoration: "none"}}><li >Home<div></div></li></Link>
-                        <Link onClick={closeNavBtn} href="/about-us" style={{color:"inherit", textDecoration: "none"}}><li >About Us</li></Link>
+                        <Link onClick={closeNavBtn} href="/about_us" style={{color:"inherit", textDecoration: "none"}}><li >About Us</li></Link>
                         <Link onClick={closeNavBtn} href="/completed" style={{color:"inherit", textDecoration: "none"}}><li >Completed</li></Link>
                         <Link onClick={closeNavBtn} href="/ongoing" style={{color:"inherit", textDecoration: "none"}}><li >Ongoing</li></Link>
                       </ul>

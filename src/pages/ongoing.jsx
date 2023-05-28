@@ -20,7 +20,7 @@ function Featured() {
             <div className={styles.gridFeatured}>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                        <Image src="/images/ilasan.jpg" objectFit='cover'   width="400" height="250" className={styles.img} />
+                        <Image src="/images/ilasan.jpg" objectFit='cover'   width="400" height="250" alt='' className={styles.img} />
                         <div className={styles.buyBtn}><p>Buy</p></div>
                     </div>
                     <div className={styles.cardDet}>
@@ -33,7 +33,7 @@ function Featured() {
                 </div>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                            <Image src="/images/A.jpg" objectFit='cover'   width="400" height="250" className={styles.img} />
+                            <Image src="/images/A.jpg" objectFit='cover' alt=''   width="400" height="250" className={styles.img} />
                             <div className={styles.buyBtn}><p>Buy</p></div>
                     </div>
                     <div className={styles.cardDet}>
@@ -46,7 +46,7 @@ function Featured() {
                 </div>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                            <Image src="/images/wavelight.jpg" objectFit='cover'   width="400" height="250" className={styles.img} />
+                            <Image src="/images/wavelight.jpg" objectFit='cover' alt=''  width="400" height="250" className={styles.img} />
                             <div className={styles.buyBtn}><p>Buy</p></div>
                     </div>
                     <div className={styles.cardDet}>
@@ -59,7 +59,7 @@ function Featured() {
                 </div>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                            <Image src="/images/SEAGATE_1.jpg"  width="400" height="250" className={styles.img} />
+                            <Image src="/images/SEAGATE_1.jpg"  width="400" height="250" alt='' className={styles.img} />
                             {/* <div className={styles.buyBtn}>
                                 <p>Buy</p>
                             </div>

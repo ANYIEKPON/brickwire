@@ -61,28 +61,28 @@ function Enquiry() {
                 <span>Why Choose Us</span>
                 <p>It’s our job to get you the best price for your home and make<br /> sure that you get the best possible deal on the property </p>
                 <div className={styles.category}>
-                    <div className={styles.icon}><Image src="/images/added_service.jpg"   width="65" height="55" /></div>
+                    <div className={styles.icon}><Image src="/images/added_service.jpg"   width="65" height="55" alt='' /></div>
                     <div className={styles.chooseCat}>
                         <span>Value Added Service</span>
                         <p>We have forged alliances with well-acclaimed  partners, active <br /> in various segments of the construction industry</p>
                     </div>
                 </div>
                 <div className={styles.category}>
-                    <div className={styles.icon}><Image src="/images/big_quality.jpg"   width="65" height="55" /></div>
+                    <div className={styles.icon}><Image src="/images/big_quality.jpg"   width="65" height="55" alt='' /></div>
                     <div className={styles.chooseCat}>
                         <span>Big on Quality</span>
                         <p>We are committed to operating every aspect of the business up <br /> to standards that offer the highest possible</p>
                     </div>
                 </div>
                 <div className={styles.category}>
-                    <div className={styles.icon}><Image src="/images/eco_friendly.jpg"   width="65" height="55" /></div>
+                    <div className={styles.icon}><Image src="/images/eco_friendly.jpg"   width="65" height="55" alt='' /></div>
                     <div className={styles.chooseCat}>
                         <span>Eco Conscious</span>
                         <p>“Our commitment to environmental awareness and preservation <br /> is reflected throughout our business”</p>
                     </div>
                 </div>
                 <div className={styles.category}>
-                    <div className={styles.icon}><Image src="/images/great_team.jpg"   width="65" height="55" /></div>
+                    <div className={styles.icon}><Image src="/images/great_team.jpg"   width="65" height="55" alt='' /></div>
                     <div className={styles.chooseCat}>
                         <span>Wide Range of Properties</span>
                         <p>We place great emphasis on ensuring strong team alignment  on <br />each project, we actively listen to our clients</p>

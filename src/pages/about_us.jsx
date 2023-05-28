@@ -32,7 +32,7 @@ function About() {
                     </p>
                 </div>
                 <div className={styles.immage}>
-                      <Image src="/images/constuct.jpg" objectFit='cover' layout='fill'  className={styles.img} />
+                      <Image src="/images/constuct.jpg" objectFit='cover' layout='fill' alt=''  className={styles.img} />
                   </div>
               </div>
               
@@ -48,7 +48,7 @@ function About() {
                     </p>
                   </div>
                   <div className={styles.immage}>
-                      <Image src="/images/modelling.jpg" objectFit='cover' layout='fill'  className={styles.img} />
+                      <Image src="/images/modelling.jpg" objectFit='cover' layout='fill' alt=''  className={styles.img} />
                   </div>
              </div>
               <div className={styles.manage}>
@@ -60,7 +60,7 @@ function About() {
                         </p>
                   </div>
                   <div className={styles.immage}>
-                      <Image src="/images/property.jpeg" objectFit='cover' layout='fill'  className={styles.img} />
+                      <Image src="/images/property.jpeg" objectFit='cover' alt='' layout='fill'  className={styles.img} />
                   </div>
               </div>
           </article>

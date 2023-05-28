@@ -19,7 +19,7 @@ function Featured() {
            </div>
             <div className={styles.gridFeatured}>
                 <div className={styles.card}>
-                    <div className={styles.immage}><Image src="/images/brick1.jpeg" objectFit='cover' layout='fill'  className={styles.img} /></div>
+                    <div className={styles.immage}><Image src="/images/brick1.jpeg" alt='' objectFit='cover' layout='fill'  className={styles.img} /></div>
                     {/* <div className={styles.buyBtn}><p>Buy</p></div> */}
                     <div className={styles.cardDet}>
                         <h3>2 Units of Semi-detached 5 bedroom duplex</h3>
@@ -29,7 +29,7 @@ function Featured() {
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <div className={styles.immage}><Image src="/images/brick2.jpeg" objectFit='cover' layout='fill'  className={styles.img} /></div>
+                    <div className={styles.immage}><Image src="/images/brick2.jpeg" objectFit='cover' layout='fill' alt=''  className={styles.img} /></div>
                     {/* <div className={styles.buyBtn}><p>Buy</p></div> */}
                     <div className={styles.cardDet}>
                         <h3> 3 Units of 5 bedroom Terraces</h3>
@@ -39,7 +39,7 @@ function Featured() {
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <div className={styles.immage}><Image src="/images/brick3.jpeg" objectFit='cover' layout='fill'  className={styles.img} /></div>
+                    <div className={styles.immage}><Image src="/images/brick3.jpeg" objectFit='cover' layout='fill'  alt='' className={styles.img} /></div>
                     {/* <div className={styles.buyBtn}>
                         <p>Buy</p>
                     </div>

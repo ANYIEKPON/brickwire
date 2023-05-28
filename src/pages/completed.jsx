@@ -20,7 +20,7 @@ function Completed() {
             <div className={styles.gridFeatured}>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                        <Image src="/images/brick1.jpeg" objectFit='cover'   width="400" height="250" className={styles.img} />
+                        <Image src="/images/brick1.jpeg" objectFit='cover' alt=''   width="400" height="250" className={styles.img} />
                         {/* <div className={styles.buyBtn}><p>Buy</p></div> */}
                     </div>
                     <div className={styles.cardDet}>
@@ -32,7 +32,7 @@ function Completed() {
                 </div>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                            <Image src="/images/brick2.jpeg" objectFit='cover'   width="400" height="250" className={styles.img} />
+                            <Image src="/images/brick2.jpeg" objectFit='cover' alt=''   width="400" height="250" className={styles.img} />
                             {/* <div className={styles.buyBtn}><p>Buy</p></div> */}
                     </div>
                     <div className={styles.cardDet}>
@@ -44,7 +44,7 @@ function Completed() {
                 </div>
                 <div className={styles.card}>
                     <div className={styles.card_img}>
-                            <Image src="/images/brick3.jpeg"  width="400" height="250" className={styles.img} />
+                            <Image src="/images/brick3.jpeg"  width="400" height="250" alt='' className={styles.img} />
                             {/* <div className={styles.buyBtn}>
                                 <p>Buy</p>
                             </div>

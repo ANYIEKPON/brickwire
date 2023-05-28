@@ -106,7 +106,7 @@
     bottom: 1rem;
 }
 
-.about div{
+.about button{
     background-color: rgb(247, 110, 110);
     color: white;
     width: 120px;
@@ -119,6 +119,8 @@
     top: 0.5rem;
     border-radius: 5px;
     display: flex;
+    /* outline: none; */
+    border: none;
 
 }
 

@@ -22,7 +22,7 @@ function Footer() {
                      Whether you are building a new facility <br /> from scratch or 
                      re-modelling, Brickwire can help <br /> you every step of the way, 
                      and it will be our pleasure <br /> to assist you in planning every 
-                     phase of your <br /> next project. <div><Link href="/about_us" style={{color:"inherit", textDecoration: "none"}}>Read More</Link></div></p>
+                     phase of your <br /> next project. <button><Link href="/about_us" style={{color:"inherit", textDecoration: "none"}}>Read More</Link></button></p>
                   
                 </div>
                 <div className={styles.company_links}>

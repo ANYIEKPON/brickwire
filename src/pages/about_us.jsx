@@ -15,7 +15,7 @@ function About() {
        <div className={styles.wrapper}>
           <article>
               <div className={styles.brickwire}>
-                  <p><span>Brickwire</span> provides complete a range of construction
+                  <p>Brickwire provides complete a range of construction
                       services. Whether you are building a new facility
                             from scratch or re-modelling, Brickwire can help
                             you every step of the way, and it will be our pleasure
@@ -28,7 +28,8 @@ function About() {
                   <span>CONSTRUCTION</span>
                     <p> At Brickwire, through efficiency, innovation, best safety practices and high standards, we deliver high quality real estate solutions, that meet and exceed our clients' expectations. 
                           We pride ourselves in delivering quality, sustainable, timely and yet cost-effective projects. 
-                          We also strategically carefully source for quality materials to ensure structural integrity and only work with the best, highly skilled and experienced professionals.</p>
+                          We also strategically carefully source for quality materials to ensure structural integrity and only work with the best, highly skilled and experienced professionals.
+                    </p>
                 </div>
                 <div className={styles.immage}>
                       <Image src="/images/constuct.jpg" objectFit='cover' layout='fill'  className={styles.img} />
